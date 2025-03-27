@@ -26,7 +26,7 @@ public class LoginSteps {
      List<HashMap<String, String>> datamap; //Data driven
      
    
-    @Given("the user navigates to login page")
+    @Given("the user navigates to login page test")
     public void user_navigate_to_login_page() {
     	
     	BaseClass.getLogger().info("Goto my account-->Click on Login.. ");
@@ -47,7 +47,7 @@ public class LoginSteps {
         lp.setPassword(pwd);
         }
 
-    @When("the user clicks on the Login button")
+    @When("the user clicks on the Login button test")
     public void click_on_login_button() {
         lp.clickLogin();
         BaseClass.getLogger().info("clicked on login button...");
